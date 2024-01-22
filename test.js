@@ -1,11 +1,32 @@
 // Larissa Giddings 15Jan2024 JavaScript Test page
+//updated on 21Jan2024
 
-console.log("Hello, Andy.");
+alert ("This page is a placeholder for things to happen in the console")
 
-var example = 100;
-var animal =prompt("Please tell me a type of an animal that you like:");
+console.log("Hello, viewer. Here are some odd numbers and a disclaimer that I must need to review some maths because I'm not sure how I got 15:");
 
-example = example*prompt("Please enter a number between 1 and 10");
 
-console.log("The 'example' variable is equal to: " + example + 
-"\nas in: if it were possible, I would pet " + example +" " + animal + "s.");
+var x = 0
+
+for (var i=1; i<= 5; i++) 
+{
+    x += i;
+
+    if((x % 2) != 0) // a test for even numbers.
+    { 
+        console.log(x);  
+    }
+           
+    }
+
+
+
+//var example =;
+//var animal = prompt("");
+
+//example = example*prompt("0");
+
+//console.log("The 'example' variable is equal to: " + example + 
+//"\nas in: if it were possible, I would pet " + example +" " + animal + "s.");
+
+//document.write()
