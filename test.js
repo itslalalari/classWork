@@ -17,16 +17,4 @@ for (var i=1; i<= 5; i++)
         console.log(x);  
     }
            
-    }
-
-
-
-//var example =;
-//var animal = prompt("");
-
-//example = example*prompt("0");
-
-//console.log("The 'example' variable is equal to: " + example + 
-//"\nas in: if it were possible, I would pet " + example +" " + animal + "s.");
-
-//document.write()
+    };
