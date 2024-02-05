@@ -1,10 +1,16 @@
 
+    a:link {
+        color:white;
+    }
+
+    a:visited {
+        color:darkred
+    }
+
     html { background-color: black;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        
         height: 100%;
-
-    }
+        }
 
     header {
         background-color: rgb(91, 3, 3);
@@ -16,13 +22,23 @@
     box-shadow: rgb(171, 29, 29) 5px 0px 40px, -5px 0px 40px;
     margin: 0px auto;
     min-width: none;
-    max-width: 1200px;
-    height: 100%;
+    max-width: 90%;
+    height: 100%;   
+    padding: 10px;
 }
 
-
+ 
 .container {
+    border: 3px solid blue;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.containerDOM { 
+    border: 6px solid blueviolet;
+    max-width: 80%;
+    margin: auto;
+    padding-left: 10px;
+    
 }

@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<head>
+
+    <title> DOM and Events</title>
+    
+    <link href = "style.css" rel="stylesheet"/>
+    
+</head>
+
+<body id="body"> 
+    <header> 
+    <h1>DOM and Events</h1> 
+    </header>
+    
+    <h1> Test test test</h1>
+    <a href="index.html">Return Home</a>
+        
+    <div class="containerDOM" id="containerDOM">
+    <h2> Div Loop Test</h2> 
+   </div>
+
+    <script>
+        var colors = ["red", "white", "gray"]; //list colors in an array
+        var colorIndex = 0;        
+        var colors2 = ["yellow", "red ","green"]; //list colors for div in array
+        var color2Index = 0;
+        function changeColor() {
+            var col = document.getElementById("body");
+            if( colorIndex >= colors.length) {
+                colorIndex = 0;
+            }            
+            var col2 = document.getElementById("containerDOM");
+            if( color2Index >= colors2.length) {
+                color2Index = 0;
+            }
+
+            col.style.backgroundColor = colors[colorIndex];
+            col2.style.backgroundColor = colors2[colorIndex];
+            colorIndex++; //add one to index every time button is clicked
+            color2Index++;
+        }
+    </script>
+    <button onclick="changeColor();">Change BG Color (x3)</button>   
+  <script src="domloop.js"></script>  
+</body>
+ 
