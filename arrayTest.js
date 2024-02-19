@@ -13,6 +13,7 @@ doge[4] = 7;
 //Step 4: take a single parameter, add one, then log
 console.log("These are the result of step 4:")
 
+
 for (var i = 0; i < doge.length; i++)
 {
    console.log(doge[i]);
